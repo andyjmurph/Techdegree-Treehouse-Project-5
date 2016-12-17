@@ -1,0 +1,19 @@
+// ==========================================================================
+// Nav bar
+// ==========================================================================
+
+header {
+  background-color: $color-body;
+}
+
+.main-nav h1 a {
+  color: $primary-color;
+}
+
+.main-nav ul {
+  margin-top: 40px;
+}
+
+.main-nav ul li {
+  margin-bottom: 20px;
+}

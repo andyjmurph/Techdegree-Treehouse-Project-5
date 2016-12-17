@@ -1,0 +1,108 @@
+img {
+  width: 100%; }
+
+section {
+  padding: 25px 0 25px 0; }
+
+#about {
+  background-color: #ff5b45; }
+
+#about img {
+  width: 30%; }
+
+#skills {
+  background-color: #f2f2f2; }
+
+.contact-info {
+  color: #a6a6a6;
+  margin-bottom: 5px; }
+  .contact-info span, .contact-info a {
+    color: #ff5b45;
+    transition: 0.3s ease-in;
+    cursor: pointer; }
+    .contact-info span:hover, .contact-info a:hover {
+      color: #ff8878; }
+
+.container {
+  text-align: center; }
+
+header {
+  background-color: #fff; }
+
+.main-nav h1 a {
+  color: #ff5b45; }
+
+.main-nav ul {
+  margin-top: 40px; }
+
+.main-nav ul li {
+  margin-bottom: 20px; }
+
+footer {
+  background-color: #595959; }
+
+footer .container {
+  display: flex;
+  justify-content: space-between; }
+
+footer .container h3 {
+  font-size: 1em; }
+
+footer .container h3,
+footer .container a {
+  color: #a6a6a6;
+  justify-content: space-between; }
+
+.button {
+  display: flex; }
+
+.button a {
+  align-self: center;
+  border: 1.5px solid #a6a6a6;
+  border-radius: 2px;
+  padding: 5px;
+  transition: .3s ease-in; }
+  .button a:hover {
+    background-color: #a6a6a6;
+    color: #fff; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+h1 {
+  font-family: "Varela Round", Arial, sans-serif;
+  font-size: 1.875em;
+  color: #ff5b45; }
+
+h2 {
+  font-family: "Varela Round", Arial, sans-serif;
+  font-size: 1.875em;
+  color: #595959; }
+  #about h2 {
+    color: #fff; }
+
+h3 {
+  font-family: "Varela Round", Arial, sans-serif;
+  font-size: 1.3125em;
+  color: #595959; }
+
+p {
+  font-family: "Varela Round", Arial, sans-serif;
+  font-size: 1em;
+  color: #a6a6a6;
+  line-height: 1.4; }
+  #about p {
+    color: #fff; }
+
+a {
+  font-family: "Varela Round", Arial, sans-serif;
+  font-size: 1em;
+  color: #ff5b45; }
+  .main-nav a {
+    color: #a6a6a6;
+    transition: 0.3s ease-in; }
+    .main-nav a:hover {
+      color: #ff5b45; }
+
+/*# sourceMappingURL=main.css.map */

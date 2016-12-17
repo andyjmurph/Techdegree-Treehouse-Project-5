@@ -6,31 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS to Sass</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
   <header>
     <div class="container">
-      <div class="logo">
-        <h1>Andrew Murphy</h1>
-      </div>
-      <nav class="main-nav">
+      <div class="main-nav">
+        <h1 class="logo"><a href="index.html">Andrew Murphy</a></h1>
         <ul>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#portfolio">Portfolio</a></li>
           <li><a href="index.html#skills">Skills</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
   </header>
   <section id="about">
-    <container>
+    <div class="container">
+      <h2>About</h2>
+      <img src="img/avatar.png" alt="Vector outline of Andrew Murphy">
       <p>Hi, I'm a front-end developer who loves resonsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-      <img src="#" alt="Vector outline of Andrew Murphy">
-    </container>
+    </div>
   </section>
   <section id="gallery">
     <div class="container">
@@ -97,14 +96,16 @@
       <h3>Contact</h3>
       <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
       <ul>
-        <li class="contact-info">Phone:<span>07495623105</span></li>
-        <li class="contact-info">Email:<span><a href="mailto:andyjmurph85@gmail.com">andyjmurph85@gmail.com</a></span></li>
+        <li class="contact-info">Phone:  <span>07495623105</span></li>
+        <li class="contact-info">Email:  <span><a href="mailto:andyjmurph85@gmail.com">andyjmurph85@gmail.com</a></span></li>
       </ul>
     </div>
   </section>
   <footer>
-    <h3>Andrew Murphy</h3>
-    <div class="button"><a href="index.html#about">Back to top</a></div>
+      <div class="container">
+      <h3>Andrew Murphy</h3>
+      <div class="button"><a href="index.html#about">Back to top</a></div>
+    </div>
   </footer>
 </body>
 </html>

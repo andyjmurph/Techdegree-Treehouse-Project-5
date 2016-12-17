@@ -1,0 +1,35 @@
+footer {
+  background-color: $dark-gray;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container h3 {
+  font-size: 1em;
+}
+
+footer .container h3,
+footer .container a {
+  color: $mid-gray;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+}
+
+.button a {
+  align-self: center;
+  border: 1.5px solid $mid-gray;
+  border-radius: 2px;
+  padding: 5px;
+  transition: .3s ease-in;
+
+  &:hover {
+    background-color: $mid-gray;
+    color: $color-body;
+  }
+}

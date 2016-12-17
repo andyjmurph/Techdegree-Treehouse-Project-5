@@ -1,0 +1,51 @@
+h1 {
+  font-family: $varela-round;
+  font-size: 1.875em;
+  color: $primary-color;
+}
+
+h2 {
+  font-family: $varela-round;
+  font-size: 1.875em;
+  color: $dark-gray;
+
+  #about & {
+    color: $color-body;
+  }
+
+}
+
+h3 {
+  font-family: $varela-round;
+  font-size: 1.3125em;
+  color: $dark-gray;
+}
+
+p,{
+  font-family: $varela-round;
+  font-size: 1em;
+  color: $text-color-base;
+  line-height: 1.4;
+
+  #about & {
+    color: $color-body;
+  }
+
+}
+
+a {
+  font-family: $varela-round;
+  font-size: 1em;
+  color: $primary-color;
+
+  .main-nav & {
+    color: $text-color-base;
+    transition: 0.3s ease-in;
+
+    &:hover {
+      color: $primary-color;
+    }
+
+  }
+
+}

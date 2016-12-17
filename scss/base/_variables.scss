@@ -1,0 +1,27 @@
+// Descriptive color variables
+
+$white: #fff;
+$light-gray: #f2f2f2;
+$mid-gray: #a6a6a6;
+$dark-gray: #595959;
+$red: #ff5b45;
+
+//functional color variables
+
+$primary-color: $red;
+
+$text-color-base: $mid-gray;
+$text-color-heading: $dark-gray;
+
+$menu-color-default: $mid-gray;
+$menu-color-hover: $primary-color;
+
+$link-color: $red;
+$link-color-hover: ligthen($red, 20%);
+
+$color-body: $white;
+
+//Font stacks
+
+$sans-serif: Arial, sans-serif;
+$varela-round: 'Varela Round', $sans-serif;

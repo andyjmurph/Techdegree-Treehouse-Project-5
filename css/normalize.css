@@ -464,6 +464,10 @@ template {
  * Remove the styles from unordered lists
  */
 
+ ul {
+   padding: 0;
+ }
+
  li {
    list-style: none;
  }
