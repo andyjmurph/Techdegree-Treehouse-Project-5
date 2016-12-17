@@ -1,6 +1,6 @@
 #Refactor CSS to Sass
 
-In this project I had to convert a CSS stylesheet to Sass by refactoring the stylesheet from the "Responsive Layout" [Responsive Portfolio Project](http://andyjmurph.github.io/Techdegree-Treehouse-Project-2) using SCSS partials, variables, extends, and mixins.
+In this project I had to convert a CSS stylesheet to Sass by refactoring the stylesheet from the "Responsive Layout" [Responsive Portfolio Project](https://andyjmurph.github.io/Treehouse-Techdegree-Project-2) using SCSS partials, variables, extends, and mixins.
 
 ##Requirements
 
