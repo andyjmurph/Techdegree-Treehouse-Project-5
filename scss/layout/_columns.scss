@@ -1,0 +1,71 @@
+#about .container {
+  @media #{$break-tablet} {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+#about img {
+  @media #{$break-tablet} {
+    max-width: 150px;
+  }
+}
+
+.hero-text {
+  @media #{$break-tablet} {
+    flex-basis: 60%;
+  }
+}
+
+#gallery ul {
+  @media #{$break-tablet} {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+}
+
+#gallery ul li {
+  @media #{$break-tablet} {
+    width: 47.5%;
+  }
+
+  @media #{$break-lg-desktop} {
+    width: 30%;
+  }
+}
+
+#skills p {
+  width: 60%;
+  margin:auto;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.skill {
+  background-color: $primary-color;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  min-width: 100px;
+  margin-top: 15px;
+
+    &:hover {
+      background-color: lighten($primary-color, 10%);
+    }
+
+}
+
+.skill p {
+  color: $white;
+  margin: 0;
+}

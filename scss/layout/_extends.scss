@@ -1,3 +1,8 @@
 %centered {
   text-align: center;
 }
+
+%flex-justified {
+  display: flex;
+  justify-content: space-between;
+}

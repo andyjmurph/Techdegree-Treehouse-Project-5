@@ -1,5 +1,10 @@
 .container {
   @extend %centered;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+  max-width: 1276px;
+}
+
+#contact .container {
+  @extend %centered;
 }

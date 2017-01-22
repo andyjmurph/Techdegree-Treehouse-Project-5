@@ -1,13 +1,14 @@
 h1 {
+  @include text($h1, $varela-round, normal, $primary-color);
   font-family: $varela-round;
-  font-size: 1.875em;
-  color: $primary-color;
+}
+
+.logo {
+  @include text($logo);
 }
 
 h2 {
-  font-family: $varela-round;
-  font-size: 1.875em;
-  color: $dark-gray;
+  @include text($h2, $varela-round, normal, $dark-gray);
 
   #about & {
     color: $color-body;
@@ -16,15 +17,11 @@ h2 {
 }
 
 h3 {
-  font-family: $varela-round;
-  font-size: 1.3125em;
-  color: $dark-gray;
+  @include text($h3, $varela-round, normal, $dark-gray);
 }
 
 p,{
-  font-family: $varela-round;
-  font-size: 1em;
-  color: $text-color-base;
+  @include text($base-size, $varela-round, $color: $text-color-base);
   line-height: 1.4;
 
   #about & {
@@ -34,13 +31,12 @@ p,{
 }
 
 a {
-  font-family: $varela-round;
-  font-size: 1em;
-  color: $primary-color;
+  @include text($base-size, $varela-round, $color: $primary-color);
 
   .main-nav & {
     color: $text-color-base;
     transition: 0.3s ease-in;
+    border-bottom: none;
 
     &:hover {
       color: $primary-color;

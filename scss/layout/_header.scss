@@ -1,19 +1,47 @@
 // ==========================================================================
-// Nav bar
+// Nav bar and logo
 // ==========================================================================
 
 header {
   background-color: $color-body;
+  padding-bottom: 25px;
+
+  @media #{$break-lg-desktop} {
+    padding-bottom: 0;
+  }
+}
+
+.logo {
+  margin-bottom: 25px;
+}
+
+.main-nav {
+  @media #{$break-tablet} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media #{$break-lg-desktop} {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.main-nav ul {
+  @media #{$break-tablet} {
+    display: flex;
+  }
+}
+
+.main-nav ul li {
+  padding: 15px 15px;
+}
+
+.main-nav ul li a {
+  display: block;
 }
 
 .main-nav h1 a {
   color: $primary-color;
-}
-
-.main-nav ul {
-  margin-top: 40px;
-}
-
-.main-nav ul li {
-  margin-bottom: 20px;
 }

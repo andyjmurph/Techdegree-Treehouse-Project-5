@@ -1,10 +1,10 @@
 footer {
   background-color: $dark-gray;
+  margin-top: 50px;
 }
 
 footer .container {
-  display: flex;
-  justify-content: space-between;
+    @extend %flex-justified;
 }
 
 footer .container h3 {
@@ -13,23 +13,49 @@ footer .container h3 {
 
 footer .container h3,
 footer .container a {
-  color: $mid-gray;
+  color: $white;
   justify-content: space-between;
+  align-self: center;
 }
+
+.footer-menu {
+
+  display: none;
+
+  @media #{$break-tablet}{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & li {
+      padding: 15px;
+
+      & a {
+        display: block;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  }
+}
+
 
 .button {
   display: flex;
+
+  @media #{$break-tablet}{
+    display: none;
+  }
 }
 
 .button a {
   align-self: center;
-  border: 1.5px solid $mid-gray;
+  border: 1.5px solid $white;
   border-radius: 2px;
   padding: 5px;
   transition: .3s ease-in;
 
   &:hover {
-    background-color: $mid-gray;
-    color: $color-body;
+    background-color: $white;
+    color: $dark-gray;
   }
 }

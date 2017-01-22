@@ -25,3 +25,16 @@ $color-body: $white;
 
 $sans-serif: Arial, sans-serif;
 $varela-round: 'Varela Round', $sans-serif;
+
+//Font size
+
+$h1: 1.875em;
+$h2: 1.6em;
+$h3: 1.3125em;
+$logo: 1.45em;
+$base-size: 1em;
+
+//Media query breakpoints
+
+$break-tablet: 'screen and (min-width: 768px)';
+$break-lg-desktop: 'screen and (min-width: 1024px)';

@@ -23,61 +23,161 @@ section {
     .contact-info span:hover, .contact-info a:hover {
       color: #ff8878; }
 
-.container {
+.container, #contact .container {
   text-align: center; }
-
-header {
-  background-color: #fff; }
-
-.main-nav h1 a {
-  color: #ff5b45; }
-
-.main-nav ul {
-  margin-top: 40px; }
-
-.main-nav ul li {
-  margin-bottom: 20px; }
-
-footer {
-  background-color: #595959; }
 
 footer .container {
   display: flex;
   justify-content: space-between; }
+
+header {
+  background-color: #fff;
+  padding-bottom: 25px; }
+  @media screen and (min-width: 1024px) {
+    header {
+      padding-bottom: 0; } }
+
+.logo {
+  margin-bottom: 25px; }
+
+@media screen and (min-width: 768px) {
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+@media screen and (min-width: 1024px) {
+  .main-nav {
+    flex-direction: row;
+    justify-content: space-between; } }
+
+@media screen and (min-width: 768px) {
+  .main-nav ul {
+    display: flex; } }
+
+.main-nav ul li {
+  padding: 15px 15px; }
+
+.main-nav ul li a {
+  display: block; }
+
+.main-nav h1 a {
+  color: #ff5b45; }
+
+footer {
+  background-color: #595959;
+  margin-top: 50px; }
 
 footer .container h3 {
   font-size: 1em; }
 
 footer .container h3,
 footer .container a {
-  color: #a6a6a6;
-  justify-content: space-between; }
+  color: #fff;
+  justify-content: space-between;
+  align-self: center; }
+
+.footer-menu {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .footer-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .footer-menu li {
+        padding: 15px; }
+        .footer-menu li a {
+          display: block;
+          transition: 0.3s ease-in-out; } }
 
 .button {
   display: flex; }
+  @media screen and (min-width: 768px) {
+    .button {
+      display: none; } }
 
 .button a {
   align-self: center;
-  border: 1.5px solid #a6a6a6;
+  border: 1.5px solid #fff;
   border-radius: 2px;
   padding: 5px;
   transition: .3s ease-in; }
   .button a:hover {
-    background-color: #a6a6a6;
-    color: #fff; }
+    background-color: #fff;
+    color: #595959; }
 
 .container {
-  width: 90%;
-  margin: 0 auto; }
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1276px; }
+
+@media screen and (min-width: 768px) {
+  #about .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left; } }
+
+@media screen and (min-width: 768px) {
+  #about img {
+    max-width: 150px; } }
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    flex-basis: 60%; } }
+
+@media screen and (min-width: 768px) {
+  #gallery ul {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap; } }
+
+@media screen and (min-width: 768px) {
+  #gallery ul li {
+    width: 47.5%; } }
+@media screen and (min-width: 1024px) {
+  #gallery ul li {
+    width: 30%; } }
+
+#skills p {
+  width: 60%;
+  margin: auto; }
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px; }
+
+.skill {
+  background-color: #ff5b45;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+  min-width: 100px;
+  margin-top: 15px; }
+  .skill:hover {
+    background-color: #ff8878; }
+
+.skill p {
+  color: #fff;
+  margin: 0; }
 
 h1 {
   font-family: "Varela Round", Arial, sans-serif;
   font-size: 1.875em;
-  color: #ff5b45; }
+  font-weight: normal;
+  color: #ff5b45;
+  font-family: "Varela Round", Arial, sans-serif; }
+
+.logo {
+  font-size: 1.45em; }
 
 h2 {
   font-family: "Varela Round", Arial, sans-serif;
-  font-size: 1.875em;
+  font-size: 1.6em;
+  font-weight: normal;
   color: #595959; }
   #about h2 {
     color: #fff; }
@@ -85,6 +185,7 @@ h2 {
 h3 {
   font-family: "Varela Round", Arial, sans-serif;
   font-size: 1.3125em;
+  font-weight: normal;
   color: #595959; }
 
 p {
@@ -101,7 +202,8 @@ a {
   color: #ff5b45; }
   .main-nav a {
     color: #a6a6a6;
-    transition: 0.3s ease-in; }
+    transition: 0.3s ease-in;
+    border-bottom: none; }
     .main-nav a:hover {
       color: #ff5b45; }
 
