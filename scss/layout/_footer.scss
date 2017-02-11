@@ -8,7 +8,7 @@ footer .container {
 }
 
 footer .container h3 {
-  font-size: 1em;
+  font-size: $base-size;
 }
 
 footer .container h3,
@@ -22,7 +22,7 @@ footer .container a {
 
   display: none;
 
-  @media #{$break-tablet}{
+  @include tablet {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,7 +42,7 @@ footer .container a {
 .button {
   display: flex;
 
-  @media #{$break-tablet}{
+  @include tablet {
     display: none;
   }
 }

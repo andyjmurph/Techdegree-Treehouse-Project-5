@@ -6,7 +6,7 @@ header {
   background-color: $color-body;
   padding-bottom: 25px;
 
-  @media #{$break-lg-desktop} {
+  @include desktop {
     padding-bottom: 0;
   }
 }
@@ -16,20 +16,20 @@ header {
 }
 
 .main-nav {
-  @media #{$break-tablet} {
+  @include tablet {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  @media #{$break-lg-desktop} {
+  @include desktop {
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
 .main-nav ul {
-  @media #{$break-tablet} {
+  @include tablet {
     display: flex;
   }
 }

@@ -4,3 +4,15 @@
   font-weight: $weight;
   color: $color;
 }
+
+@mixin tablet {
+  @media #{$break-tablet} {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media #{$break-lg-desktop} {
+    @content;
+  }
+}

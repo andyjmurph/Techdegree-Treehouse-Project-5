@@ -13,6 +13,11 @@ section {
 
 #about img {
   width: 30%;
+
+  @include tablet {
+    max-width: 150px;
+  }
+
 }
 
 #skills {
